@@ -10,9 +10,6 @@ Hospitals rely on patient feedback to improve healthcare services. Online review
 - data/ # Data files
 - functions/ # Utility functions
 - pipeline_results/ # Pipeline output results
-- saved_models/ # Trained model weights
-- saved_tokenizers/ # Saved tokenizers
-- testresult/ # Test results
 
 - 1-scraping_data.ipynb # Extraction of patient reviews from klinikbewertungen.de
 - 2-data_exploration.ipynb # Exploratory Data Analysis (EDA)
@@ -56,7 +53,7 @@ Python dependencies are listed in `requirements.txt`.
 
 ## Data Availability
 
-The datasets used in this work can be requested from the author.
+The annotated German hospital review dataset, used in this work, can be requested from the author, as well as access to the best fine-tuned models and tokenizers.
 
 ## Computational Resources
 
