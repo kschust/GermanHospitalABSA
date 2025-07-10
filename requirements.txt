@@ -1,1 +1,29 @@
+# Core requirements
+requests==2.32.4
+beautifulsoup4==4.13.4
+pandas==2.3.0
+matplotlib==3.10.3
+nltk==3.9.1
+spacy==3.8.7
+scikit-learn==1.7.0
+kneed==0.8.5
+seaborn==0.13.2
+gensim==4.3.3
+torch==2.7.1
+flair==0.15.1
+datasets==2.15.0
+evaluate==0.4.4
+seqeval==1.2.2
+gputil==1.4.0
+accelerate==1.8.1
+aiohttp==3.12.13
+transformers==4.53.0
+safetensors==0.5.3
+protobuf==6.31.1
+numpy==1.26.4
+scipy==1.13.1
+
+# SpaCy German model
+de_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl
+
 
