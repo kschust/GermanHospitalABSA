@@ -9,13 +9,13 @@ Hospitals rely on patient feedback to improve healthcare services. Online review
 ## Repository Structure
 ```
 .
-├── data/             # Data files
-├── functions/        # Utility functions
+├── data/                      # Data files
+├── functions/                 # Utility functions
 │   ├── ate_model_train.py
 │   ├── ate_model_train_OB.py
 │   ├── absa_model_train.py
 │   └── ate_absa_pipeline.py
-├── pipeline_results/ # Pipeline output results
+├── pipeline_results/          # Pipeline output results
 │
 ├── 1-scraping_data.ipynb                 # Extraction of patient reviews from klinikbewertungen.de
 ├── 2-data_exploration.ipynb              # Exploratory Data Analysis (EDA)
