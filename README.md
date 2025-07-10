@@ -7,24 +7,26 @@ Repository for the Master's Thesis **"Aspect-Based Sentiment Analysis of German 
 Hospitals rely on patient feedback to improve healthcare services. Online reviews have become an important resource for understanding patient experience and provide valuable insights into healthcare services. However, analyzing unstructured reviews remains challenging, especially in low-resource languages like German. This thesis presents an Aspect-Based Sentiment Analysis (ABSA) approach for German hospital reviews.
 
 ## Repository Structure
-- data/ # Data files
-- functions/ # Utility functions
-- pipeline_results/ # Pipeline output results
-
-- 1-scraping_data.ipynb # Extraction of patient reviews from klinikbewertungen.de
-- 2-data_exploration.ipynb # Exploratory Data Analysis (EDA)
-- 3-data_preparation_for_labeling.ipynb # Data preparation for labeling
-- 4-data_preprocessing.ipynb # Aspect Category Detection + preprocessing
-- 5-data_labeling.ipynb # EDA of labeled data + format conversion
-- 6-name_anonymization.ipynb # Data anonymization
-- 7-ATE_OB.ipynb # ATE training (OB-Tagging)
-- 7-ATE_OB_performance.ipynb # ATE performance analysis
-- 7-ATE.ipynb # ATE training (OBI-Tagging)
-- 8-ABSA.ipynb # ABSA training
-- 8-ABSA_performance.ipynb # ABSA performance analysis
-- 9-ATE_ABSA_pipeline.ipynb # Complete ATE+ABSA pipeline
-- requirements.txt # Python dependencies
-
+```
+.
+├── data/ # Data files
+├── functions/ # Utility functions
+├── pipeline_results/ # Pipeline output results
+│
+├── 1-scraping_data.ipynb # Extraction of patient reviews from klinikbewertungen.de
+├── 2-data_exploration.ipynb # Exploratory Data Analysis (EDA)
+├── 3-data_preparation_for_labeling.ipynb # Data preparation for labeling
+├── 4-data_preprocessing.ipynb # Aspect Category Detection + preprocessing
+├── 5-data_labeling.ipynb # EDA of labeled data + format conversion
+├── 6-name_anonymization.ipynb # Data anonymization
+├── 7-ATE_OB.ipynb # ATE training (OB-Tagging)
+├── 7-ATE_OB_performance.ipynb # ATE performance analysis
+├── 7-ATE.ipynb # ATE training (OBI-Tagging)
+├── 8-ABSA.ipynb # ABSA training
+├── 8-ABSA_performance.ipynb # ABSA performance analysis
+├── 9-ATE_ABSA_pipeline.ipynb # Complete ATE+ABSA pipeline
+└── requirements.txt # Python dependencies
+```
 
 ## Workflow Overview
 
